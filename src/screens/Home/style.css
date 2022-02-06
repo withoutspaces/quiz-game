@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( 45deg,#4031c9, #91cae5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    min-width: 300px;
+    min-height: 450px;
+    max-height: 700px;
+    width: 45%;
+    height: 90%;
+}
+
+.userName {
+    width: 65%;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.initButton {
+    border: none;
+    width: 50%;
+    height: 50px;
+    background-color: #1565c0;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+ .logo{
+    width: 430px;
+    height: 217px;
+    margin: 50px 0px 10px 0px;
+ }
+
+ .title {
+     text-align: center;
+ }

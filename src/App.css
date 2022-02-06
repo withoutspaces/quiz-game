@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Varela+Round&display=swap');
+
+html, body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  font-family: 'Varela Round', sans-serif;
+}
