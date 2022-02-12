@@ -1,0 +1,24 @@
+.container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+}
+
+.button {
+    width: 50%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3982e2;
+    color: #ffffff;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+    width: 52%;
+    background-color: #1f5baa;
+
+}
