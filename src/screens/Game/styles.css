@@ -1,0 +1,26 @@
+.quiz-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.card-game {
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    min-width: 300px;
+    min-height: 450px;
+    max-height: 700px;
+    width: 45%;
+    height: 90%;
+    justify-content: center;
+}
+
+.logo2 {
+    margin-bottom: 20px;
+}
