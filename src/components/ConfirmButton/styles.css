@@ -1,0 +1,30 @@
+.btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.btn-confirm {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    color: #fff;
+    gap: 10px;
+    align-items: center;
+    width: 25%;
+    height: 50px;
+    border: none;
+    background-color: rgb(0, 161, 73);
+    transition: 0.4s ease-in-out;
+}
+
+.btn-confirm:hover {
+    background-color: rgb(5, 126, 59);
+}
+
+.btn-confirm:focus {
+    background-color: rgb(5, 126, 59);
+}
