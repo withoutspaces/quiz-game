@@ -62,6 +62,7 @@
     border-radius: 10px;
     font-size: 20px;
     transition: 0.4s ease-in-out;
+    text-align: center;
 }
 
 .initButton:hover {

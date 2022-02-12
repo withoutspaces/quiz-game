@@ -13,7 +13,7 @@ export default function Home() {
                     <p className='title'>Olá, seja bem-vindo ao Data Quiz! <br/> Para iniciarmos, digite seu nome</p>
                     <input type="text" name="userName" className="userName" placeholder='Digite seu nome' />
                     <Link to='/quiz'  className='btn-container' >
-                        <input type="button" value="Começar" className='initButton'/>
+                        <input type="submmit" value="Começar" className='initButton'/>
                     </Link> 
                 </div>
             </div>
