@@ -8,7 +8,7 @@
 
 .button {
     width: 50%;
-    height: 60px;
+    height: 50px;
     border: none;
     border-radius: 10px;
     background-color: #3982e2;
@@ -21,4 +21,8 @@
     width: 52%;
     background-color: #1f5baa;
 
+}
+.button:focus {
+    width: 52%;
+    background-color: #7e1faa;    
 }
