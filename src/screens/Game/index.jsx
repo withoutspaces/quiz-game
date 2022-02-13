@@ -20,8 +20,8 @@ export default function GameScreen() {
  
     async function getQuestions() {
         const response = await api.get('?amount=1&difficulty=easy&type=multiple')
-        const answer = response.data.results
-        const ans = answer.map(result => [...result.incorrect_answers, result.correct_answer])
+        const questionsData = response.data.results
+        const answers = questionsData.map(result => [...result.incorrect_answers, result.correct_answer])
 
         const shuffle = (arr) => {
             for (let i = arr.length - 1; i > 0; i--) {
@@ -33,11 +33,11 @@ export default function GameScreen() {
             return arr;
         };
 
-        const shuffledAnswers = ans.map(questionsAns => shuffle(questionsAns))
+        const shuffledAnswers = answers.map(questionsAns => shuffle(questionsAns))
 
-        console.log(shuffledAnswers, answer)
+        console.log(shuffledAnswers, questionsData)
         setAlternatives(shuffledAnswers);
-        setQuestions(answer)
+        setQuestions(questionsData)
         setLoaded(true)
     }
 
@@ -57,6 +57,7 @@ export default function GameScreen() {
                             return(
                                 <Button 
                                     value={res}
+                                    function={() => console.log('teste', res)}
                                 />
                             )
                         })}
