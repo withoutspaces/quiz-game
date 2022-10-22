@@ -1,0 +1,37 @@
+.admin_container {
+  width: 90%;
+  height: 100%;
+  margin-top: 1rem;
+}
+
+.logo_admin {
+  margin-top: 2rem;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.input {
+  padding-left: 5px;
+  border: none;
+  margin-top: 3px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 5px;
+  height: 2rem;
+  outline-color: rgb(10, 112, 56);
+  outline-width: 0.1px;
+}
+
+.send_button {
+  border: none;
+  width: 50%;
+  height: 2rem;
+  background-color: rgb(10, 112, 56);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  margin-top: 1rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+}

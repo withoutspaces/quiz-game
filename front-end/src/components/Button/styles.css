@@ -1,0 +1,32 @@
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 8px;
+}
+
+.button {
+  width: 75%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3982e2;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.button p {
+  color: #ffffff;
+  font-size: 1.0625rem;
+  margin: auto;
+}
+
+.button:hover {
+  width: 77%;
+  background-color: #1f5baa;
+}
+.button:focus {
+  width: 77%;
+  background-color: #7e1faa;
+}

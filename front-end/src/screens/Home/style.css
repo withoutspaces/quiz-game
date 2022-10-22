@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #00c8dd, #4c94b6);
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  box-shadow: 2px 3px 3px rgba(4, 50, 151, 0.5);
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  width: 25rem;
+  height: 35rem;
+}
+
+.info-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.25rem;
+  gap: 1rem;
+}
+
+.userName {
+  width: 15rem;
+  height: 2.5rem;
+  padding-left: 0.625rem;
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  border-color: rgba(44, 44, 44, 0.212);
+  border-width: 1px;
+  outline: none;
+  transition: 0.4s ease-in-out;
+}
+
+.userName:focus {
+  width: 16rem;
+  border-color: rgba(44, 44, 44, 0.747);
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.initButton {
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  background-color: #00c8dd;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  transition: 0.1s ease-in-out;
+  text-align: center;
+}
+
+.initButton:hover {
+  width: 30%;
+  background-color: #3088db;
+}
+
+.logo {
+  margin-top: 3.125rem;
+}
+
+.title {
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .card {
+    width: 22rem;
+    height: 40rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .card {
+    width: 20rem;
+    height: 35rem;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .card {
+    width: 35rem;
+  }
+}
