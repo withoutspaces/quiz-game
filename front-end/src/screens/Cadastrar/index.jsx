@@ -51,7 +51,7 @@ export default function Cadastar() {
       <div className="card">
         <img src={logo} alt="" className='logo_admin' />
 
-        <form className="admin_container" onSubmit={handleSubmmit} ref={formRef}>
+        <form className="admin_container" onSubmit={handleSubmmit}>
           <h3>Cadastar Perguntas</h3>
 
           <div className="inputs">
