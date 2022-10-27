@@ -1,17 +1,19 @@
-.container-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin: 8px;
-}
-
 .button {
-  width: 75%;
+  width: 27rem;
   height: 50px;
   border: none;
   border-radius: 10px;
   background-color: #3982e2;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.button.selected {
+  width: 28rem;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #7e1faa;
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
@@ -23,10 +25,10 @@
 }
 
 .button:hover {
-  width: 77%;
+  width: 28rem;
   background-color: #1f5baa;
 }
-.button:focus {
-  width: 77%;
+/* .button:focus {
+  width: 28rem;
   background-color: #7e1faa;
-}
+} */
