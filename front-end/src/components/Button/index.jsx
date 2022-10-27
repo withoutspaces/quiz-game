@@ -9,17 +9,12 @@ export default function Button(props) {
     }
 
     return (
-        <div
-            className="container-button"
+        <button
+            onClick={props.handleButton}
+            type="button"
+            className="button"
         >
-
-            <button
-                onClick={props.handleAlternativeButton}
-                type="button"
-                className="button"
-            >
-                <p>{decodeString(props.value)}</p>
-            </button>
-        </div>
+            <p>{decodeString(props.value)}</p>
+        </button>
     )
 }
