@@ -5,6 +5,14 @@
   justify-content: center;
 }
 
+.buttons_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 .option_btn {
   display: flex;
   flex-direction: row;
@@ -34,11 +42,45 @@
     width: 22rem;
     height: 40rem;
   }
+  .button {
+    width: 16rem;
+  }
+
+  .button:hover {
+    width: 17rem;
+  }
+  .button:focus {
+    width: 17rem;
+  }
 }
 @media only screen and (max-width: 375px) {
   .card-game {
     width: 20rem;
     height: 35rem;
+  }
+  .button {
+    width: 16rem;
+  }
+  .button:hover {
+    width: 17rem;
+  }
+  .button:focus {
+    width: 17rem;
+  }
+}
+@media only screen and (max-width: 799px) {
+  .card-game {
+    width: 20rem;
+    height: 35rem;
+  }
+  .button {
+    width: 16rem;
+  }
+  .button:hover {
+    width: 17rem;
+  }
+  .button:focus {
+    width: 17rem;
   }
 }
 @media only screen and (min-width: 800px) {
