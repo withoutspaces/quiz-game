@@ -10,10 +10,9 @@ export default function Home() {
                 <img src={Logo} alt="Logo show do milhão" className='logo' />
 
                 <div className='info-box'>
-                    <p className='title'>Hello, welcome to Data Quiz!<br />To start, type your name bellow.</p>
-                    <input type="text" name="userName" className="userName" placeholder='Your name' required />
+                    <p className='title'>Olá, bem vindo ao Data Quiz!<br />Para começar, aperte no botão abaixo.</p>
                     <Link to='/quiz' className='btn-container' >
-                        <input value="Let's Start" className='initButton' />
+                        <input value="Vamos lá" className='initButton' />
                     </Link>
                 </div>
             </div>
