@@ -16,6 +16,6 @@ app.use(
 
 require('./src/controllers/questionsController')(app)
 
-app.listen(3001, () => {
+app.listen(3002, () => {
   console.log('API ON FIRE!')
 })
